@@ -1,6 +1,6 @@
 # Attribution
 
-This proof-of-work repository documents a Grok Bot health expert design by Thiago De Sa (2026).
+This proof-of-work repository documents a Grok Bot health analyst design by Thiago De Sa (2026).
 
 ## Design influences (ideas, not code)
 

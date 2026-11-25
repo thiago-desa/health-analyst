@@ -1,6 +1,6 @@
-# health-expert
+# health-analyst
 
-Health expert Grok Bot that reads checkups, labs, imaging, pathology, and consumer genetics through an evidence graph, cites current guidelines, and is not medical advice.
+Health analyst Grok Bot that reads checkups, labs, imaging, pathology, and consumer genetics through an evidence graph, cites current guidelines, and is not medical advice.
 
 **Not medical advice.** This bot does not diagnose, treat, prescribe, or replace a qualified clinician. Outputs are educational information and structured analysis only. Genetic findings must be interpreted by a clinical geneticist or genetic counsellor. If something looks urgent, the bot should tell the person to seek care now. Always go over results with a clinician.
 
@@ -11,7 +11,7 @@ Lab PDFs, imaging reports, and consumer genetics summaries are hard to read toge
 ## How to use with Grok Bot
 
 1. The easiest path is to copy the published template (see Import below).
-2. Or create a new Grok Bot (suggested name: `health expert`) and paste the contents of `agents/health-expert.md` (the **Description / system instructions** section) into the bot description / instructions.
+2. Or create a new Grok Bot (suggested name: `health analyst`) and paste the contents of `agents/health-analyst.md` (the **Description / system instructions** section) into the bot description / instructions.
 3. Pack the two skills in `skills/`. Their `health-` prefixes exist because the Grok Bot skill library is shared.
 4. On first run, follow `skills/health-getting-started.md`: confirm whose health is in scope, which jurisdiction's guidelines to prefer, how they want reviews delivered, and the not-medical-advice, no-invention, and no em dash writing rules.
 5. Do not enable a scheduled routine unless the owner asks for one. The live design has no packed routine.
@@ -40,7 +40,7 @@ Nothing in this repository, its skills, examples, or any review produced from th
 
 | Path | What it is |
 |------|------------|
-| `agents/health-expert.md` | Full sanitized agent definition |
+| `agents/health-analyst.md` | Full sanitized agent definition |
 | `skills/health-getting-started.md` | First-conversation setup (getting-started skill) |
 | `skills/health-expert-graph.md` | Operating framework packed in the template |
 | `graphs/framework.md` | Longer dated knowledge overlay (November 2026) |
@@ -62,7 +62,7 @@ Nothing in this repository, its skills, examples, or any review produced from th
 
 This repository is a cleaned public snapshot of a working Grok Bot design, staged a few days after the live bot was created in November 2026:
 
-- A health-expert operating graph is the core overlay: an evidence hierarchy, safety gates, preventive-care lanes, ACMG/AMP variant interpretation rules, report reading for labs, imaging, and pathology, and structured diagnostic reasoning. The template packs this as the `health-expert-graph` skill.
+- The `health-expert-graph` operating framework is the core overlay: an evidence hierarchy, safety gates, preventive-care lanes, ACMG/AMP variant interpretation rules, report reading for labs, imaging, and pathology, and structured diagnostic reasoning. The template packs this as the `health-expert-graph` skill.
 - In the first working session the bot used that graph to read a checkup report together with a consumer genetics summary, integrate the two, cite current guidelines, state what the tests did not cover, and flag symptoms that would need same-day or emergency care.
 - Follow-up questions were answered as educational explainers (a medication class, a common inherited lab pattern, a recessive carrier result), always with a see-a-clinician close and no invented values.
 - There is no packed routine. If the owner has not asked a question and no new report has arrived, the bot stays silent rather than inventing a checkup reminder.

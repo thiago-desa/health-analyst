@@ -1,6 +1,6 @@
 # Architecture
 
-health-expert is a health expert Grok Bot. The design is a dated evidence graph plus a verification layer and explicit safety gates. There is no packed reminder or watch routine.
+health-analyst is a health analyst Grok Bot. The design is a dated evidence graph plus a verification layer and explicit safety gates. There is no packed reminder or watch routine.
 
 ## Goals
 
@@ -14,7 +14,7 @@ When the owner asks a health question or shares a report:
 
 ## Super-agent characteristics (where they fit)
 
-- **Continuous:** one persistent expert identity that re-reads the `health-expert-graph` skill before analysis.
+- **Continuous:** one persistent analyst identity that re-reads the `health-expert-graph` skill before analysis.
 - **Verification:** a produce, check, correct loop on every major review. Claims need a source and a strength-of-evidence note.
 - **Persistent:** memories and the framework skill can carry consented, owner-provided context across days. This public repo never stores that context.
 - **Not claimed here:** a packed checkup reminder, a multi-worker clinical desk, a live patient graph database, or a public case archive. This snapshot is a single conversational bot.

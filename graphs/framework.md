@@ -1,4 +1,4 @@
-# Health expert framework (November 2026 overlay)
+# Health analyst framework (November 2026 overlay)
 
 Longer public overlay behind the packed `health-expert-graph` skill. Last reviewed **November 2026**. Guideline grades, database records, and methods must be re-checked against primary sources before they are treated as current. This document is educational. It is not medical advice, a diagnosis, or a treatment plan.
 

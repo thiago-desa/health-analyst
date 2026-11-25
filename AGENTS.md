@@ -1,10 +1,10 @@
 # AGENTS.md
 
-Short, high-signal instructions for coding agents working in `health-expert`.
+Short, high-signal instructions for coding agents working in `health-analyst`.
 
 ## What this repo is
 
-A sanitized proof-of-work snapshot of a health expert Grok Bot. Markdown skills, a knowledge-graph framework, evals, and docs are the product. There is no service binary to compile.
+A sanitized proof-of-work snapshot of a health analyst Grok Bot. Markdown skills, a knowledge-graph framework, evals, and docs are the product. There is no service binary to compile.
 
 ## Layout
 

@@ -1,6 +1,6 @@
 # Golden set (fictional)
 
-Offline regression cases for health-expert. Outcomes are rubrics, not exact wording. Every case is fictional. None of the patients, lab values, variants, or symptoms below are real.
+Offline regression cases for health-analyst. Outcomes are rubrics, not exact wording. Every case is fictional. None of the patients, lab values, variants, or symptoms below are real.
 
 ## HE-01 Urgent red-flag escalation
 
